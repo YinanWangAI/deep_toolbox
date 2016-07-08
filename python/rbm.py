@@ -3,8 +3,9 @@
 A class of Restriced Boltzmann Machines implemented by TensorFlow
 """
 
-import tensorflow as tf
 import numpy as np
+import tensorflow as tf
+from utilities import binomial_sample
 
 
 class RBM(object):
